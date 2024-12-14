@@ -1,0 +1,241 @@
+depth=2 emailAddress = certadmin@netskope.com, CN = *.sin2.goskope.com, OU = certadmin, O = Netskope Inc., L = Singapore, ST = SG, C = SG
+verify error:num=19:self-signed certificate in certificate chain
+verify return:1
+depth=2 emailAddress = certadmin@netskope.com, CN = *.sin2.goskope.com, OU = certadmin, O = Netskope Inc., L = Singapore, ST = SG, C = SG
+verify return:1
+depth=1 emailAddress = certadmin@netskope.com, CN = ca.lenskart.goskope.com, OU = 630929e012fd9cbf9e42400cec82c2e6, O = Lenskart Solutions Pvt Ltd, L = Gurugram, ST = IN, C = IN
+verify return:1
+depth=0 CN = pub.dev
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN = pub.dev
+   i:emailAddress = certadmin@netskope.com, CN = ca.lenskart.goskope.com, OU = 630929e012fd9cbf9e42400cec82c2e6, O = Lenskart Solutions Pvt Ltd, L = Gurugram, ST = IN, C = IN
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Nov 12 09:59:22 2024 GMT; NotAfter: Dec 12 09:59:22 2025 GMT
+-----BEGIN CERTIFICATE-----
+MIID0jCCArqgAwIBAgIQX7LMg0t8RgiRQzxnJ9L/lTANBgkqhkiG9w0BAQsFADCB
+xjElMCMGCSqGSIb3DQEJAQwWY2VydGFkbWluQG5ldHNrb3BlLmNvbTEgMB4GA1UE
+AwwXY2EubGVuc2thcnQuZ29za29wZS5jb20xKTAnBgNVBAsMIDYzMDkyOWUwMTJm
+ZDljYmY5ZTQyNDAwY2VjODJjMmU2MSMwIQYDVQQKDBpMZW5za2FydCBTb2x1dGlv
+bnMgUHZ0IEx0ZDERMA8GA1UEBwwIR3VydWdyYW0xCzAJBgNVBAgMAklOMQswCQYD
+VQQGDAJJTjAeFw0yNDExMTIwOTU5MjJaFw0yNTEyMTIwOTU5MjJaMBIxEDAOBgNV
+BAMMB3B1Yi5kZXYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDRGcr
+vWPu4QJEdcxe4uI8JxoExJq6BXp739tDw41melGEFDsq5vkHoH0RE3tONz1D4bFc
+WxxS3GBGpFlIuKbRk6MjFA0sUW8YcV2CPAs+3sOMPbrAM3AuNZ/lBMu4UPyrWl8N
+9iUxGM4Fd0k25zjnDaC8xtPm0M7+EAmUrBA1U2nA3MgqpiQpA/tqcXKegWNKs5YU
+H6btGdLnQ5JbZXYggPq3Vt8gktJRdFXaiqOLZJBTlnlhb90xatfEsRtb5adTdJMK
+zi8vRjxtRNS1AugSvjzMPFxGprrgBZ7LDpS78K5xvlATNs+KXA/nWzGxKvpXOben
+1klFZ43CE7carBsXAgMBAAGjbzBtMAkGA1UdEwQCMAAwHQYDVR0OBBYEFLprl3An
+Fy5T9QsEn5DRf7V+FkS/MBIGA1UdEQQLMAmCB3B1Yi5kZXYwDgYDVR0PAQH/BAQD
+AgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjANBgkqhkiG9w0BAQsF
+AAOCAQEAuJAcRZt/gqHEQhVW8PWyUHqNJgmbmixHcSmDOqxnFpoYdGYKuHtvs3j3
+Dd2IFK+8IJRKYDlM8aQ1eS2WiBaWSvo0q1VR2sJdD7UDEuhbsOCYIAAojxVD460E
+rTZBgaBk9+knxHRFFDHAWsyJlLcSTLh8tlFq0MPF5SuiUaD/srkvOQH/cRAqhz0v
+RaWoKgXACL6syiGDDbsHi+uOGOnekN9EWf3gwhwgCytuChFhlg8COiReK0f6rL/9
+trc4AVrgLWnt8uZJzP0col3zFSR8Lops5kTvcnaqm3si3eE3MlgxDWv65Fhy/6Hg
+knpBDAveGlIdRRkn9OCJQWGpeQXXow==
+-----END CERTIFICATE-----
+ 1 s:emailAddress = certadmin@netskope.com, CN = ca.lenskart.goskope.com, OU = 630929e012fd9cbf9e42400cec82c2e6, O = Lenskart Solutions Pvt Ltd, L = Gurugram, ST = IN, C = IN
+   i:emailAddress = certadmin@netskope.com, CN = *.sin2.goskope.com, OU = certadmin, O = Netskope Inc., L = Singapore, ST = SG, C = SG
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Dec  7 15:00:33 2023 GMT; NotAfter: Dec  4 15:00:33 2033 GMT
+-----BEGIN CERTIFICATE-----
+MIIE5zCCA8+gAwIBAgIDAMiPMA0GCSqGSIb3DQEBCwUAMIGeMSUwIwYJKoZIhvcN
+AQkBDBZjZXJ0YWRtaW5AbmV0c2tvcGUuY29tMRswGQYDVQQDDBIqLnNpbjIuZ29z
+a29wZS5jb20xEjAQBgNVBAsMCWNlcnRhZG1pbjEWMBQGA1UECgwNTmV0c2tvcGUg
+SW5jLjESMBAGA1UEBwwJU2luZ2Fwb3JlMQswCQYDVQQIDAJTRzELMAkGA1UEBgwC
+U0cwHhcNMjMxMjA3MTUwMDMzWhcNMzMxMjA0MTUwMDMzWjCBxjElMCMGCSqGSIb3
+DQEJAQwWY2VydGFkbWluQG5ldHNrb3BlLmNvbTEgMB4GA1UEAwwXY2EubGVuc2th
+cnQuZ29za29wZS5jb20xKTAnBgNVBAsMIDYzMDkyOWUwMTJmZDljYmY5ZTQyNDAw
+Y2VjODJjMmU2MSMwIQYDVQQKDBpMZW5za2FydCBTb2x1dGlvbnMgUHZ0IEx0ZDER
+MA8GA1UEBwwIR3VydWdyYW0xCzAJBgNVBAgMAklOMQswCQYDVQQGDAJJTjCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJ6JFBZhm8e5Sm+n9e8rGscWq8N
+RSQePq8nwO/32lhWvunC7gU7fSEdSoVj+OPCp+egZCFaH4MCk+h2pmudzTA0BEWE
+aIy0ajHUs6u0xsJpG16VySWhhQVLtCzIthinSne5AF+MslwfhkyM1WuFBMPd2Myj
+/azF6H61M/556Cl/47JChQyuQMJRaFNWFgpXZFYGn3Ljn9/8XD9Kiu2qPKEaEjs1
+tLSZverioO6Xs2Jzadtfr8oHAUlLAn3TjIa/Yk/MTryaUHCfYUmu7v3CU/rNZllF
+jcgxM2rIJ5dm5NmD6TOn1SrJMN3TFBzWMGQRtr7WDh6N3sJTSyzeBlm4rDsCAwEA
+AaOCAQIwgf8wDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQU8pJ8wyz0HQMWQ5+S
+Tussq1pMNygwgcwGA1UdIwSBxDCBwYAUoelZwP++g4wADLmNAnIHQmDQMBihgaSk
+gaEwgZ4xJTAjBgkqhkiG9w0BCQEMFmNlcnRhZG1pbkBuZXRza29wZS5jb20xGzAZ
+BgNVBAMMEiouc2luMi5nb3Nrb3BlLmNvbTESMBAGA1UECwwJY2VydGFkbWluMRYw
+FAYDVQQKDA1OZXRza29wZSBJbmMuMRIwEAYDVQQHDAlTaW5nYXBvcmUxCzAJBgNV
+BAgMAlNHMQswCQYDVQQGDAJTR4ICATgwDQYJKoZIhvcNAQELBQADggEBAGQtJYEv
+wc+76MMX+D69BKWOahdZK6uwkPZ+p96ukQsuBU0KsokadUSh9bsfum4MH/8hrjZO
+U7uRc/YfQd0ZJwvzrREnXyUH10SkbJi0KVg/RYGvCknIWv4aWnz5OG+gLUquuXSk
+97sPXlKra0ErnMym8Z+wN8+zbMW4QOAymvzeiIAzeSA14AFg7oQe+Kz8ErXj87qf
+1EPSUc5GS+lxO+xXYVHel+wboMm3TV0QCOW3RdItAW/8MYunCZZHqS+5h+MRXanf
+JoDeQxJfKsQkRs690WO0jtg3O8VDLWJWaYnAXNH5JWvj1mCR0s1rtmT2hWK8LG7X
+b3pxYUHRE9NOaHw=
+-----END CERTIFICATE-----
+ 2 s:emailAddress = certadmin@netskope.com, CN = *.sin2.goskope.com, OU = certadmin, O = Netskope Inc., L = Singapore, ST = SG, C = SG
+   i:emailAddress = certadmin@netskope.com, CN = *.sin2.goskope.com, OU = certadmin, O = Netskope Inc., L = Singapore, ST = SG, C = SG
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Aug 26 11:11:28 2022 GMT; NotAfter: Aug 23 11:11:28 2032 GMT
+-----BEGIN CERTIFICATE-----
+MIIEDTCCAvWgAwIBAgICATgwDQYJKoZIhvcNAQELBQAwgZ4xJTAjBgkqhkiG9w0B
+CQEMFmNlcnRhZG1pbkBuZXRza29wZS5jb20xGzAZBgNVBAMMEiouc2luMi5nb3Nr
+b3BlLmNvbTESMBAGA1UECwwJY2VydGFkbWluMRYwFAYDVQQKDA1OZXRza29wZSBJ
+bmMuMRIwEAYDVQQHDAlTaW5nYXBvcmUxCzAJBgNVBAgMAlNHMQswCQYDVQQGDAJT
+RzAeFw0yMjA4MjYxMTExMjhaFw0zMjA4MjMxMTExMjhaMIGeMSUwIwYJKoZIhvcN
+AQkBDBZjZXJ0YWRtaW5AbmV0c2tvcGUuY29tMRswGQYDVQQDDBIqLnNpbjIuZ29z
+a29wZS5jb20xEjAQBgNVBAsMCWNlcnRhZG1pbjEWMBQGA1UECgwNTmV0c2tvcGUg
+SW5jLjESMBAGA1UEBwwJU2luZ2Fwb3JlMQswCQYDVQQIDAJTRzELMAkGA1UEBgwC
+U0cwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCoHoeq8Je8uOUlNhLy
+sXSzZouTR4CERbydCJPr3BIz9POnWG+Ee67dAgUYaIKVPSqYVqY8LLs6g45tAELm
+oVgMnX8FbrHD29PuYYm0yqIM76eRFgIJbFjN+5ycoustHaa2J9ModL+csTyt33Y/
+5Uzdad7/YHwnVhxa2fYLmrGvxaYJJ6j4WH9k0TCZufLAyY69PWPqgI4H9gfLgBV1
+pbNS3YFqZvww+3mZIrttwoyXTwTFtWMtiwOrZ2Ila90/6zZ5GBeR0syLQ63sG0TK
+9AbmhZ0dAX3Wk8/fFluqxZS6uxlETHLXZ4o8Bp9SSEXXXPKrRBW82JWmXTEDw2LV
+N0KtAgMBAAGjUzBRMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFKHpWcD/voOM
+AAy5jQJyB0Jg0DAYMB8GA1UdIwQYMBaAFKHpWcD/voOMAAy5jQJyB0Jg0DAYMA0G
+CSqGSIb3DQEBCwUAA4IBAQCBZ3yhZyDLeKM3sBctx3k4ddwab0GFWo2vrd1Ds5A2
+tWWGOo7f7MwISXYO701ruyjIP8ZiEY+lc8I9de3FYLGUzYGCUn7QWuOD/RjKTsOg
+kj1LhMoPWg8hs81MPY6mK1FC19euidtwZAHXV4BLkECx5pJG1cqyVf5AIu1XlgDm
+9NYAP1MZDFVsvnF6EVGcbWMl2zxkTXRgJhmCWAnsPT520Uvvnff813YzfafDGzT4
+Fz3FwfJAc/+IfY+RQiVezKsk8WRRI1AEQmsRWDl6YA/pGeGvtFDQZ8dx1TACxWhW
+zSCSMuE3eKl2CWZJfwJBb5Vly5ULnRqXaB/lkAHvwvgA
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN = pub.dev
+issuer=emailAddress = certadmin@netskope.com, CN = ca.lenskart.goskope.com, OU = 630929e012fd9cbf9e42400cec82c2e6, O = Lenskart Solutions Pvt Ltd, L = Gurugram, ST = IN, C = IN
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 3848 bytes and written 393 bytes
+Verification error: self-signed certificate in certificate chain
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 19 (self-signed certificate in certificate chain)
+---
+HTTP/1.1 502 Bad Gateway
+Content-Length: 1208
+Connection: close
+
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Bad Gateway</title>
+<style type="text/css">
+body {
+    font-family: Lato, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#notification {
+    padding: 32px;
+}
+h1 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+    color: black;
+    margin: 0 0 16px 0;
+}
+h2 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: black;
+    margin: 0 0 16px 0;
+}
+p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #646464;
+    margin: 0 0 16px 0;
+}
+</style>
+</head>
+
+<body>
+<div id="notification">
+    <h1>HsFailure (error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure)</h1>
+
+    <h2>The destination 34.36.0.14 is not reachable.<br />Contact your IT administrator with the following error:</h2>
+
+    <p>mode='CLIENT', lname='st-gateway-proxy', rip='34.36.0.14', rp='443', oip='', op='0', lip='163.116.219.32', lp='31680', sni='34.36.0.14', fd='9200', SSL handshake error '-1' sslerr='1' sslerrdesc='error:14094410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure' sslerrfunc='148' sslerrreason='1040'</p>
+</div>
+</body></html>
+40F7DB350A7F0000:error:0A000126:SSL routines:ssl3_read_n:unexpected eof while reading:../ssl/record/rec_layer_s3.c:322:
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 79CC86CF19DC025E16F5BC529F5FA867BC2335CB1608B52512F1D70752857F2F
+    Session-ID-ctx: 
+    Resumption PSK: 8BA5F9F4882E92567F1D832B596B5C0C1F353D6FAE55CADBC5BDA2A1BEC10FEE5C5D320C9245BE661AB2EDA5D0B5ECFE
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - c7 72 d1 7e 37 38 c5 78-75 06 b8 29 0a 47 5c 03   .r.~78.xu..).G\.
+    0010 - 53 f7 d2 59 10 46 1d 85-55 68 af 81 25 74 64 b4   S..Y.F..Uh..%td.
+    0020 - a0 f0 b9 c8 ad 5a 28 a2-78 80 ec d2 02 ed 75 6f   .....Z(.x.....uo
+    0030 - 56 9c f8 27 0b a5 ca 67-02 ea 6e c0 23 a4 ac e6   V..'...g..n.#...
+    0040 - 3c 63 ab b8 2d d3 be 61-31 70 43 bc 16 c8 14 e1   <c..-..a1pC.....
+    0050 - fc 19 6a a0 db c9 61 6b-4b 42 63 ad cf 9d b1 29   ..j...akKBc....)
+    0060 - 2d 87 72 63 05 8d 30 6d-c2 c8 44 d6 ea 5b f1 56   -.rc..0m..D..[.V
+    0070 - 6e b9 b5 31 64 1e 10 4b-fe 88 3d aa 16 31 63 f1   n..1d..K..=..1c.
+    0080 - 85 32 68 6b 83 2d 56 57-63 3b 3f 6b 9a aa 77 92   .2hk.-VWc;?k..w.
+    0090 - e8 30 69 9d c1 10 b6 58-d7 87 33 38 c4 77 eb 7b   .0i....X..38.w.{
+    00a0 - 16 20 8d 45 d5 6a 03 8c-c9 ee 97 ba 6f ef 76 88   . .E.j......o.v.
+    00b0 - e4 d7 1b e8 28 aa 13 2d-04 24 8c 34 a4 ef 57 1c   ....(..-.$.4..W.
+    00c0 - bc 77 ca d4 a6 1b 2f 61-95 48 20 b3 81 42 1d af   .w..../a.H ..B..
+
+    Start Time: 1734155934
+    Timeout   : 7200 (sec)
+    Verify return code: 19 (self-signed certificate in certificate chain)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 23FC82C46D8143B3DE37AEAE06CAF7451F9CCA2038C348993F64B392474CA6B4
+    Session-ID-ctx: 
+    Resumption PSK: 8B3D9487BFC787A9A6894BFCCF24E72822AC30269C63873E1DD6092D1088B3553744FCF9011A015ACB1028FFFF87EBF2
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - c7 72 d1 7e 37 38 c5 78-75 06 b8 29 0a 47 5c 03   .r.~78.xu..).G\.
+    0010 - 46 dd e9 af 97 2b 84 82-32 4d 5d 81 6a 21 73 85   F....+..2M].j!s.
+    0020 - f7 6c ac 1e 16 07 8c d0-ff bb 05 42 c3 0d ca e7   .l.........B....
+    0030 - 05 6a 33 3c 3d ad e1 34-b0 7a f9 bd ad 6b 87 40   .j3<=..4.z...k.@
+    0040 - 8e ae 8f 0e 9e 20 6b 3c-70 c9 dd 1c be 23 97 fc   ..... k<p....#..
+    0050 - 02 b9 83 dd ab a8 82 6f-ff e0 a9 6f 78 40 70 d1   .......o...ox@p.
+    0060 - 39 70 88 31 22 aa 91 a2-ff a7 2a ec ad ed 36 70   9p.1".....*...6p
+    0070 - e3 e3 02 74 38 2c 1d e3-70 56 3d fb 24 05 1d 92   ...t8,..pV=.$...
+    0080 - 0b 32 ad 3f 15 6f ee b7-53 38 01 5a 87 9b d3 49   .2.?.o..S8.Z...I
+    0090 - 99 85 89 ee 37 c2 00 c1-0e eb a7 1a 50 8d 71 6f   ....7.......P.qo
+    00a0 - a5 9b 1e 06 e2 a2 cf ae-81 c9 73 2e ca e0 6b 36   ..........s...k6
+    00b0 - 56 53 2b 79 8e 9c 23 c8-5d 1c 44 b0 ac bb 17 61   VS+y..#.].D....a
+    00c0 - 2d f6 21 e8 f6 f4 b2 a4-ac dc ae cf 98 1e 33 25   -.!...........3%
+
+    Start Time: 1734155934
+    Timeout   : 7200 (sec)
+    Verify return code: 19 (self-signed certificate in certificate chain)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK

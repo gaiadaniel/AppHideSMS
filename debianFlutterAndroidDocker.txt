@@ -1,0 +1,67 @@
+# Use a lightweight Debian image as the base
+FROM debian:latest
+
+# Update the package lists
+RUN apt-get update -y
+
+# Install required packages
+RUN apt-get install -y \
+    curl \
+    wget \
+    unzip \
+    git \
+    openjdk-17-jdk \
+    default-jdk \
+    libgl1-mesa-glx \
+    libxcb1 \
+    libx11-6 \
+    libxrender1 \
+    fonts-droid-fallback \
+    libfontconfig1 \
+    xz-utils 
+
+RUN apt-get update && apt-get install -y \
+    xrdp \
+    xfce4 \
+    xorg \
+    openbox \
+    xterm \
+    xfce4-goodies \
+    tigervnc-standalone-server
+
+
+RUN apt-get update && apt-get install -y \
+    vim \ 
+    netcat-openbsd \
+    iproute2 
+
+
+# Set up the Flutter SDK
+#ENV FLUTTER_CHANNEL stable
+#ENV FLUTTER_SDK_VERSION 3.10.6
+
+RUN curl -sSL https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.24.5-stable.tar.xz  -o flutter.tar.xz \
+ && tar -xvf flutter.tar.xz -C /usr/local \
+ &&  export PATH="/usr/local/flutter/bin:$PATH" \
+ && git config --global --add safe.directory /usr/local/flutter
+
+# Configure Flutter
+#RUN flutter config --enable-android
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the Flutter project code
+#COPY . .
+
+# Expose the Flutter port (optional)
+EXPOSE 8080
+EXPOSE 3389
+EXPOSE 3350
+EXPOSE 5900
+
+# Command to run the Flutter app
+#CMD ["flutter", "run", "-d", "emulator-5554"]
+
+# Commnd to run the XRDP
+#CMD ["/usr/sbin/xrdp"]
